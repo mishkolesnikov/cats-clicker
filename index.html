@@ -1,5 +1,24 @@
+<!DOCTYPE html>
+
 <html>
-    <div id="cats-area">
+    <meta charset="Utf-8">
+    <style>
+        .cat{
+            float:left;
+        }
+    </style>
+    <div id="Hello-area">
         Hello cats!
     </div>
+    <div id="cats-area">
+        <div class="cat">
+            <img src="img/badcat.jpg" width=200px height=150px onclick="badCat.clickCounter()">
+        <p id="badcattext">BadCat</p>
+        </div>
+        <div class="cat">
+            <img src="img/goodcat.jpg" width=200px height=150px onclick="goodCat.clickCounter()">
+        <p id="goodcattext">GoodCat</p>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
 </html>
