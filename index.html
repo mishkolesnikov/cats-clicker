@@ -3,21 +3,21 @@
 <html>
     <meta charset="Utf-8">
     <style>
-        .cat{
+        .structure{
             float:left;
         }
+        img{
+             width:200px;
+             height:150px;
+        }
     </style>
-    <div id="Hello-area">
+    <div id="Hello-cats">
         Hello cats!
     </div>
-    <div id="cats-area">
-        <div class="cat">
-            <img src="img/badcat.jpg" width=200px height=150px onclick="badCat.clickCounter()">
-        <p id="badcattext">BadCat</p>
+    <div id="list-area" class="structure">
+        <ul id="cats-list">suicideSquad</ul>
         </div>
-        <div class="cat">
-            <img src="img/goodcat.jpg" width=200px height=150px onclick="goodCat.clickCounter()">
-        <p id="goodcattext">GoodCat</p>
+    <div id="cats-area" class="structure">
         </div>
     </div>
     <script src="js/app.js"></script>
